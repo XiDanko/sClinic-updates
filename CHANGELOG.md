@@ -6,7 +6,7 @@
 * Invoice items delete issue now replaced by cancel
 * Dental chart readonly fix
 * Suggestion fields issue fixes
-
+* Open the invoice after deleting an invoice item, even if the invoice is closed.
 ### Features:
 * New whatsApp integration service
 * Online booking service
