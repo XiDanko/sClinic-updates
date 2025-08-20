@@ -1,0 +1,72 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "xidanko/sclinic",
+    "type": "project",
+    "description": "Clinic management system.",
+    "keywords": [
+        "sClinic",
+        "clinic",
+        "management"
+    ],
+    "license": "proprietary",
+    "require": {
+        "php": "^8.2",
+        "appstract/laravel-opcache": "*",
+        "laravel/framework": "^12.0",
+        "laravel/sanctum": "^4.0",
+        "laravel/tinker": "^2.9",
+        "maatwebsite/excel": "^3.1",
+        "spatie/laravel-permission": "^6.10",
+        "xidanko/auto-installer": "^1.2",
+        "xidanko/jasper": "^1.1",
+        "xidanko/query-filter": "^1.0",
+        "xidanko/update-manager": "^1.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "laravel/pint": "^1.13",
+        "mockery/mockery": "^1.6",
+        "nunomaduro/collision": "^8.1",
+        "xidanko/ts-enums-generator": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Seeders\\": "database/seeders/"
+        },
+        "files": ["app/helpers.php"]
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --force"
+        ],
+        "post-files-update-cmd": [
+            "composer update --no-dev --optimize-autoloader --no-interaction",
+            "@php artisan optimize:clear",
+            "@php artisan opcache:clear",
+            "@php artisan permission:sync",
+            "@php artisan optimize",
+            "@php artisan opcache:compile"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
