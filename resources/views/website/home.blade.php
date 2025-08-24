@@ -27,7 +27,7 @@
                 @endif
                 <div class="mt-6 flex space-x-reverse space-x-4">
 
-                    @if($portalPage->online_booking)
+                    @if(count($clinics)>0)
 
                         {{----------------------------------------------------------------------------------------}}
 

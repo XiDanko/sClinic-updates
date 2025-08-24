@@ -1,3 +1,9 @@
+## v1.1.1 - 2025-08-24
+### Fixes:
+* Appointment request status issue
+* Several design issues
+* Bug fixes
+
 ## v1.1.0 - 2025-08-20
 ### Fixes:
 * External service expense issue fixed
