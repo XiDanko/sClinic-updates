@@ -1,3 +1,13 @@
+## v1.1.3 - 2025-09-03
+### Fixes:
+* Fixed sending confirmation message to WhatsApp using token in **Appointment** and **Appointment Requests** pages.
+* Fixed AutoComplete procedure selection in **Appointment** and **Invoice** pages.
+* Fixed AutoComplete product selection in **Stock** pages.
+* Fixed patient permission visibility issue in **Assessment** page.
+*  Add transaction to `RunUpdateDB` command to ensure all old database updates are executed atomically.
+   - All SQL scripts and updates now run inside a `DB::transaction()`.
+   - Prevents partial updates if any step fails.
+
 ## v1.1.2 - 2025-09-01
 ### Fixes:
 * change quantity in Stock from integer to float

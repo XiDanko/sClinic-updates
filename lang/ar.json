@@ -83,6 +83,7 @@
     "Create New Visitation": "إنشاء زيارة جديدة",
     "Edit Visitation": "تعديل الزيارة",
     "Create New Whatsapp Template": "إنشاء قالب واتساب جديد",
+    "Whatsapp Temp": "قالب واتساب",
     "Edit WhatsappTemplate": "تعديل قالب واتساب",
     "Are you sure you want to proceed?": "هل أنت متأكد أنك تريد المتابعة؟",
     "Confirmation": "تأكيد",
@@ -511,6 +512,7 @@
     "Last Appointment": "الموعد الأخير",
     "Comments": "تعليقات",
     "Add Comments": "اضافة تعليقات",
+    "Create New Online Booking Setting": "انشاء اعدادات الحجز الالكتروني",
     "Previous Visitation Required": "الزيارة السابقة مطلوبة",
     "copy procedures with their products from clinic Source to clinic Destination": "نسخ الإجراءات مع منتجاتها من العيادة المصدر إلى العيادة الوجهة",
 
