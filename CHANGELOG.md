@@ -1,3 +1,16 @@
+## v1.2.1 - 2025-10-11
+### Fixes:
+* Menu item is now shown if it has at least one child with permission.
+* Fixed an issue where adding a procedure in the dental assessment would set the **order_id** to null when adding a new procedure from the Dental Chart.
+* Fixed **Last Appointment Date** to be determined based on the appointment **date** instead of **created_at**.
+
+### Features:
+* Followup management.
+* Case sheet management.
+* Added **Discount** and **Extra Charge** options to the procedure when creating or updating an appointment.
+* Displayed **Due Balance** in the procedure assessment of previous visitations.
+
+
 ## v1.2.0 - 2025-09-26
 ### Fixes:
 * Registers transaction transfer correctly and closes the transfer dialog when the transfer is completed.
