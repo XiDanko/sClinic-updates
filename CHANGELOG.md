@@ -1,3 +1,15 @@
+## v1.2.2 - 2025-10-13
+### Fixes:
+* Fixed the search issue for products on the Add Procedure page.
+* Made the product search on the page case-insensitive (works with both uppercase and lowercase characters).
+* In the Assessment page, under the Procedure tab, display Total Payments and Due Balance correctly — if there are multiple open invoices, show the total Due Balance of all; if there is only one open invoice, show its Due Balance.
+
+### Features:
+* Added Diagnosis to General Assessment.
+* Upload Attachment from Appointment.
+* View all attachments in the assessment page under the Attachments tab, depending on the "Show All Attachments" toggle.
+* View appointment notes in the assessment page.
+
 ## v1.2.1 - 2025-10-11
 ### Fixes:
 * Menu item is now shown if it has at least one child with permission.
