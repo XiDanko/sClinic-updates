@@ -1,4 +1,13 @@
-## v1.2.2 - 2025-10-13
+## v1.2.3 - 2025-11-10
+### Fixes:
+* Show "Add Payment" button in the Procedures tab on the Assessment page when there is a due balance.
+ 
+### Features:
+* Dynamic report management: add filters and join with reports.
+* Edit patient information in medical history.
+ 
+
+## v1.2.2 - 2025-10-19
 ### Fixes:
 * Fixed the search issue for products on the Add Procedure page.
 * Made the product search on the page case-insensitive (works with both uppercase and lowercase characters).
