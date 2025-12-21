@@ -1,0 +1,1 @@
+var n=(e=>(e.Pending="pending",e.Answered="answered",e.NoAnswer="noAnswer",e.Cancelled="cancelled",e))(n||{});function s(){return{getStatusSeverity:r=>{switch(r){case n.Pending:return"info";case n.Answered:return"success";case n.NoAnswer:return"warn";case n.Cancelled:return"danger";default:return"secondary"}}}}export{n as F,s as u};

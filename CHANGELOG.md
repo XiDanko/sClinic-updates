@@ -1,3 +1,22 @@
+## v1.2.4 - 2025-12-20
+### Fixes:
+* Fixed an issue with adding payments in the assessment page Procedure tab.
+* Corrected is Linked To User so it properly returns false when the user has no access this register.
+* Corrected appointment-request query to return only appointments linked to the user's clinic.
+* Closed the dialog after creating appointments when 'Send Confirmation to WhatsApp' is selected.
+* Closed the appointment-request dialog after creating.
+* Delete order together with its items in Assessments → Orders tab.
+* Correct treatment plan design in case-sheet.
+
+  
+### Features
+* Support for dynamically listing both local and remote APIs in reports.
+* Set default template in diagnostics.
+* Allow users to create follow-ups manually instead of being generated automatically by the system
+* Add “Follow-up Start After” setting to clinic settings
+* Add follow-up type, called by, and created by fields to Followups
+* Add Followups and Appointments to case-sheet
+ 
 ## v1.2.3 - 2025-11-10
 ### Fixes:
 * Show "Add Payment" button in the Procedures tab on the Assessment page when there is a due balance.

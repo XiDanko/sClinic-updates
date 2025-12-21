@@ -2,7 +2,7 @@
 ALTER TABLE stock_transactions ALTER COLUMN product_id TYPE bigint USING product_id::bigint;
 ALTER TABLE stock_transactions ALTER COLUMN inventory_id TYPE bigint USING inventory_id::bigint;
 
-ALTER TABLE stock_transactions ADD COLUMN creator_id bigint NOT NULL;
+ALTER TABLE stock_transactions ADD COLUMN creator_id bigint  ;
 
 ALTER TABLE stock_transactions RENAME COLUMN bill_item_id TO invoice_item_id;
 

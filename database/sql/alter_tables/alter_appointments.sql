@@ -1,5 +1,6 @@
 ALTER TABLE appointments
-    ADD COLUMN reference_id bigint,
+    ADD COLUMN IF NOT EXISTS reference_id bigint,
+
     ADD COLUMN notes varchar(255);
 
 ALTER TABLE appointments

@@ -18,8 +18,8 @@ ALTER TABLE visitations
     DROP COLUMN lis_partner_id,
     DROP COLUMN lab_report,
     DROP COLUMN is_sent_to_pharmacy,
-    DROP COLUMN is_sent_to_lab,
-    DROP COLUMN date;
+    DROP COLUMN is_sent_to_lab;
+
 -- Add columns if needed
 ALTER TABLE visitations
     ADD COLUMN treatment_plan_id bigint;
@@ -27,10 +27,16 @@ ALTER TABLE visitations
 -- Convert types
 ALTER TABLE visitations
     ALTER COLUMN assessment_id TYPE bigint USING assessment_id::bigint;
+-- Rename date → created_at
 
+ALTER TABLE visitations
+    RENAME COLUMN created_at TO created_at2;
+
+ALTER TABLE visitations
+    RENAME COLUMN date TO created_at;
 -- Normalize timestamps
 ALTER TABLE visitations
-    ALTER COLUMN created_at TYPE timestamp(0) USING created_at::timestamp(0),
+--     ALTER COLUMN created_at TYPE timestamp(0) USING created_at::timestamp(0),
     ALTER COLUMN updated_at TYPE timestamp(0) USING updated_at::timestamp(0);
 
 -- Drop outdated indexes
