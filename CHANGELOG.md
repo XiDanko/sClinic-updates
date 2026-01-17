@@ -1,3 +1,11 @@
+## v1.2.5 - 2026-1-17
+### Features
+* Add notification system
+* Add health information with dynamic fields
+
+
+
+
 ## v1.2.4 - 2025-12-20
 ### Fixes:
 * Fixed an issue with adding payments in the assessment page Procedure tab.
