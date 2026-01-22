@@ -1,10 +1,21 @@
+## v1.2.6 - 2026-1-22
+### Fixes:
+* Fixed an issue with listing visitations on the assessment page caused by incorrect  query parameters.
+* Fixed an issue in reports when sending filter parameters.
+* Reordered the search input for improved layout and usability in appointment page.
+* Fixed PrimeVue deprecation warning by replacing OverlayPanel with Popover in notifications.
+
+
+### Features
+*  Added `user Collection`   for report usage to standardize authenticated user handling.
+ 
+
+
+
 ## v1.2.5 - 2026-1-17
 ### Features
 * Add notification system
 * Add health information with dynamic fields
-
-
-
 
 ## v1.2.4 - 2025-12-20
 ### Fixes:
@@ -16,7 +27,6 @@
 * Delete order together with its items in Assessments → Orders tab.
 * Correct treatment plan design in case-sheet.
 
-  
 ### Features
 * Support for dynamically listing both local and remote APIs in reports.
 * Set default template in diagnostics.
@@ -28,11 +38,10 @@
 ## v1.2.3 - 2025-11-10
 ### Fixes:
 * Show "Add Payment" button in the Procedures tab on the Assessment page when there is a due balance.
- 
+
 ### Features:
 * Dynamic report management: add filters and join with reports.
 * Edit patient information in medical history.
- 
 
 ## v1.2.2 - 2025-10-19
 ### Fixes:
@@ -58,7 +67,6 @@
 * Added **Discount** and **Extra Charge** options to the procedure when creating or updating an appointment.
 * Displayed **Due Balance** in the procedure assessment of previous visitations.
 
-
 ## v1.2.0 - 2025-09-26
 ### Fixes:
 * Registers transaction transfer correctly and closes the transfer dialog when the transfer is completed.
@@ -73,8 +81,6 @@
 * Appointment list now displays all records without pagination.
 * Set default configuration values for database, database password, and project name.
 * Prescription items on Assessment page now correctly merge the old array with the new one.
-
-
 
 ### Features:
 * Orders management from Assessment page and Orders page.

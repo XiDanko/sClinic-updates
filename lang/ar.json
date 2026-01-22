@@ -590,6 +590,21 @@
     "Required": "مطلوب",
     "Create New Order": "إنشاء طلب جديد",
     "External Service Requests": "طلبات الخدمة الخارجية",
+    "Dynamic Fields": "الحقول الديناميكية",
+    "Dynamic Field": "الحقول الديناميكية",
+    "Width": "عرض",
+    "Column": "عمود",
+    "Edit Health Information Template Field": "تعديل حقل نموذج المعلومات الصحية",
+    "Default Value": "القيمة الافتراضية",
+    "Label Field": "حقل التسمية",
+    "Data Source": "مصدر البيانات",
+    "Data End Point": " البيانات",
+    "Value Field": " حقل القيمة",
+    "General Information": " معلومات عامة",
+    "Health Information": "معلومات صحية",
+
+    "Edit Dynamic Field": "تعديل الحقل الديناميكي",
+    "Health Information Template Fields": "حقول نموذج المعلومات الصحية",
 
     "copy procedures with their products from clinic Source to clinic Destination": "نسخ الإجراءات مع منتجاتها من العيادة المصدر إلى العيادة الوجهة",
 
