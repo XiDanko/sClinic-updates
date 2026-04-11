@@ -602,11 +602,24 @@
     "Value Field": " حقل القيمة",
     "General Information": " معلومات عامة",
     "Health Information": "معلومات صحية",
+    "Copy Fields": "نسخ الحقول",
 
     "Edit Dynamic Field": "تعديل الحقل الديناميكي",
     "Health Information Template Fields": "حقول نموذج المعلومات الصحية",
 
     "copy procedures with their products from clinic Source to clinic Destination": "نسخ الإجراءات مع منتجاتها من العيادة المصدر إلى العيادة الوجهة",
 
-     "Please select patient": "يرجى اختيار مريض"
+     "Please select patient": "يرجى اختيار مريض",
+     "Appointment Queue": "قائمة الانتظار",
+     "The patient name has already been taken": "اسم المريض مُستخدم من قبل",
+     "patient name": "اسم المريض",
+     "Appointments Queue": "قائمة المواعيد",
+     "Cancel Dispensed": "تم الإلغاء",
+     "Dispensed": "تم صرفه",
+     "Inbox": "صندوق الوارد",
+     "Send Message To": "أرسل رسالة إلى",
+     "Notifications": "إشعارات",
+     "To User": "الى المستخدم",
+     "Filled": "مملوء",
+     "Welcome we wish you a speedy recovery": "مرحباً بكم، نتمنى لكم الشفاء العاجل."
 }

@@ -1,1 +1,0 @@
-import{A as e}from"./appointment-status-CvodAEQg.js";const t={[e.Pending]:{severity:"info"},[e.Scheduled]:{severity:"info"},[e.Attended]:{severity:"warn"},[e.InProgress]:{severity:"help"},[e.Completed]:{severity:"success"},[e.Canceled]:{severity:"danger"}};export{t as s};

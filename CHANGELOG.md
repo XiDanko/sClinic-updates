@@ -1,3 +1,49 @@
+
+## v1.2.7 - 2026-4-11
+### Fixes:
+* Improved search to apply a `WHERE LIKE` filter on names across all items
+* Fixed Health Information dynamic field type "textarea"
+* Limited the number of items in the Patient List autocomplete
+* Fixed handling of active and inactive states in Health Information fields
+* Fixed cancel permission check on Register show
+* Fixed report date range handling
+* Fixed error when editing Health Information for old appointments
+* Fixed error in assessment diagnoses
+* Fixed issue where canceled appointments for the same patient on the same day did not show an alert
+* Reloaded visitations on the Assessment page when clicking "Completed"
+* Fixed issue where editing and saving Health Information fields on page 2 or later would return to the first page instead of the same page
+* Fixed display of report `display_name` in the side menu
+* Fixed bug where deleting a procedure from an assessment did not update the patient’s visitation card
+* In the Assessment page, when a procedure is deleted, the visitations list is automatically reloaded.
+* Prevented duplicate patient names when editing an appointment; the name must be unique.
+* Edit Appointments Queue ui.
+* Fix saving the report when using "Save as Template" in the General Assessment.
+* Fix issue where page content does not reload when switching between reports.
+* Fix delete report permission.
+* Fix error when adding a patient with only month and day in the birth date.
+
+### Features
+* Health Information title display  the label 
+* Added ability to copy Health Information fields to a new clinic
+* Display clinic name and procedure name in the report filter
+* Display the due balance in the visitation list if the patient’s due balance is greater than 0
+* Show `attendanceOrder` in appointment pages.
+* Merge patient information when duplicate records exist.
+* messages & inbox: Add messages and add a message directly from the Inbox.
+* Prescription Items: Mark as dispensed in Pharmacy and display this information on the Assessment page for the doctor.
+* Add search for appointments by patient phone number.
+* Add health information field filter: show all or show filled only.
+
+* In the Assessment page, if a search term is not found in the local data, a **"Search Everywhere"** button will appear to allow searching across all records.
+* Improved auto-close functionality: when an invoice is opened, any previously open invoice will remain open, and new procedures will be added to it instead of creating a new invoice.
+* Removed validation on `dueBalance` to allow negative values.
+* Display `dueBalance` in the dialog for appointments that are **Attended** or **In Progress** in payment.
+* Added a filter on the Appointment pages to select by status: **Scheduled**, **Attended**, **In Progress**, **Completed**, **Canceled**.
+* In the Queue-Visitations view, the visitations are displayed in the order they are attended.
+* Add permission for `invoice.generalDiscountInExtraCharges`
+* Show summary in rates.
+* Add filters to rates.
+
 ## v1.2.6 - 2026-1-22
 ### Fixes:
 * Fixed an issue with listing visitations on the assessment page caused by incorrect  query parameters.

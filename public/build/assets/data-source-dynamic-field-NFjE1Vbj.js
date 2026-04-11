@@ -1,0 +1,1 @@
+var e=(t=>(t.String="string",t.Textarea="textarea",t.Number="number",t.Date="date",t.DateRange="dateRange",t.Select="select",t.MultiSelect="multiSelect",t.Title="title",t))(e||{}),r=(t=>(t.Local="local",t.Remote="remote",t))(r||{});export{r as D,e as a};

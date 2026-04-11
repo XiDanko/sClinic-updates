@@ -1,0 +1,1 @@
+var e=(t=>(t.View="Visitation.view",t.Index="Visitation.index",t.List="Visitation.list",t.Create="Visitation.create",t.Update="Visitation.update",t.Print="Visitation.print",t.Export="Visitation.export",t.Delete="Visitation.delete",t.ViewVisitationsOtherClinics="Visitation.viewVisitationsOtherClinics",t))(e||{});export{e as V};
