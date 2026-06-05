@@ -5,8 +5,8 @@ ALTER TABLE bill_items RENAME TO invoice_items;
 ALTER TABLE invoice_items RENAME COLUMN bill_id TO invoice_id;
 ALTER TABLE invoice_items RENAME COLUMN item_id TO procedure_id;
 ALTER TABLE invoice_items RENAME COLUMN extra_charges TO extra_charge;
-ALTER TABLE invoice_items RENAME COLUMN doctor_cost TO clinic_cost;
-ALTER TABLE invoice_items RENAME COLUMN doctor_ratio TO clinic_ratio;
+
+
 
 -- Add new columns
 ALTER TABLE invoice_items ADD COLUMN visitation_id bigint;
@@ -14,9 +14,6 @@ ALTER TABLE invoice_items ADD COLUMN appointment_id bigint;
 
 
 
--- Modify existing columns
-ALTER TABLE invoice_items ALTER COLUMN center_cost SET DEFAULT 0;
-ALTER TABLE invoice_items ALTER COLUMN center_cost SET NOT NULL;
 
 ALTER TABLE invoice_items ALTER COLUMN price TYPE integer USING price::integer;
 ALTER TABLE invoice_items ALTER COLUMN quantity TYPE integer USING quantity::integer;

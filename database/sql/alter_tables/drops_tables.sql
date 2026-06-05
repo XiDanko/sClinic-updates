@@ -3,7 +3,7 @@ DROP table costs;
 DROP table lis_orders;
 DROP table notifications;
 DROP table operations;
-DROP table pediatric_assessments;
+
 DROP table printable_forms;
 DROP table rooms;
 DROP table vacations;

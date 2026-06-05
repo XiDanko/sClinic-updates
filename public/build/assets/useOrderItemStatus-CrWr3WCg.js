@@ -1,1 +1,0 @@
-function r(){return{getStatusSeverity:e=>{switch(e){case"completed":return"success";case"accepted":return"info";case"canceled":return"danger";case"pending":return"warn";default:return"secondary"}}}}export{r as u};

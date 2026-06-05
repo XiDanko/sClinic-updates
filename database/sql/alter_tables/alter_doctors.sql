@@ -8,7 +8,7 @@ ALTER TABLE clinics ADD COLUMN work_end time(0) NOT NULL DEFAULT '00:00';
 
 
 ALTER TABLE clinics ALTER COLUMN "order" TYPE integer USING "order"::integer;
-ALTER TABLE clinics ALTER COLUMN dental_numbering_system SET NOT NULL;
+
 ALTER TABLE clinics ALTER COLUMN ratio TYPE integer USING ratio::integer;
 ALTER TABLE clinics ALTER COLUMN ratio SET NOT NULL;
 ALTER TABLE clinics ALTER COLUMN active TYPE boolean USING (active = 1);

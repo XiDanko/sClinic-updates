@@ -1,3 +1,22 @@
+## v1.2.8 - 2026-6-5
+### Fixes:
+* Reset selected procedures when changing provider in the order assessment page.
+* Fix clinic creation and editing where the active toggle was always set to true by default.
+* Hide barcode print button when LIS is not active.
+* Fix phone number validation.
+* Hide inactive suggestions in the assessment page.
+* Replace delete order with cancel order functionality.
+* Prevent changing appointment status to "In Progress" if the appointment date is in the future (must be today or earlier)
+
+### Features
+* Add ability to copy prescription templates.
+* Add ability to create orders from the orders page and ability to add payments to orders and ability to send orders to LIS and ability to upload order results.
+* Remove Arabic diacritics and normalize letters (e.g., "أ" → "ا").
+* Use autocomplete for clinic selection in the create invoice page instead of a simple select dropdown.
+* Automatically print invoice when auto-print option is enabled.
+* Auto-fill payment amount based on the invoice remaining balance.
+* Display patient name in transactions and rates pages.
+* Add diagnoses in the suggestion page.
 
 ## v1.2.7 - 2026-4-11
 ### Fixes:
