@@ -1,3 +1,12 @@
+## v1.2.9 - 2026-6-13
+### Fixes:
+* Fixed print issue in invoice.
+* Fixed phone number validation (must start with 078, 077, 075, or 079).
+* Fixed WhatsApp confirmation messages not being sent from the appointment page.
+ 
+### Features
+* Added ability to clone existing roles.
+
 ## v1.2.8 - 2026-6-5
 ### Fixes:
 * Reset selected procedures when changing provider in the order assessment page.
