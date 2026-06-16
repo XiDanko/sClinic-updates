@@ -1,3 +1,8 @@
+## v1.2.10 - 2026-6-16
+### Fixes:
+* Fixed Arabic text search in patient names.
+ 
+
 ## v1.2.9 - 2026-6-13
 ### Fixes:
 * Fixed print issue in invoice.
