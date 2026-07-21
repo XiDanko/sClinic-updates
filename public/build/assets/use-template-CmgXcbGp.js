@@ -1,1 +1,0 @@
-import{j as c}from"./main-BdeACgAM.js";function p(i){return{toggleTemplateState:async(a,o,r,s,l,n,f=!1)=>{const e=i.value.find(t=>t.id===a);if(e){if(!f&&!await l()){e.isDefault=!o;return}try{await c.patch(`/api/templates/${a}/state`,{state:r}),await s(location.search),n()}catch(t){console.error("Error toggling template state:",t),e.isDefault=o}}}}}export{p as u};

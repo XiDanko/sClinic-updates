@@ -1,1 +1,0 @@
-import{r as e,j as s}from"./main-BdeACgAM.js";const t=e([]),o=async()=>{const{data:a}=await s.get("/api/payment-methods/list");t.value=a.data};function m(){return{fetchPaymentMethods:o,paymentMethods:t}}export{m as u};

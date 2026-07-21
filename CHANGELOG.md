@@ -1,3 +1,22 @@
+## v1.2.12 - 2026-07-17
+### Fixes
+* Fixed QR code printing for orders sent to the LIS.
+* Fixed an attachment loop that caused every order to send duplicate requests.
+* Reduced unnecessary requests by canceling redundant requests.
+
+### Features
+
+* Added activity log management.
+
+## v1.2.11 - 2026-6-29
+### Fixes:
+* Hide the error alert when a 502 error is returned.
+* Fixed the issue with sending messages to the inbox.
+
+### Features
+* Added responsive mobile support for the Appointment and Invoice pages.
+* Added "Cancel Pending" for order items.
+
 ## v1.2.10 - 2026-6-16
 ### Fixes:
 * Fixed Arabic text search in patient names.

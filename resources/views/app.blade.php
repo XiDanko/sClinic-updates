@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}" dir="{{app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1280, user-scalable=no">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='designer' content='Techport, info@techport-iq.com'>
     <link rel="icon" type="image/png" href="/storage/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/storage/assets/favicon/favicon.svg" />
