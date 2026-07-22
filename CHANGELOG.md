@@ -1,3 +1,11 @@
+## v1.2.13 - 2026-07-21
+### Fixes
+* Fixed the Activity Log for appointments.
+* Improved the mobile responsiveness of the Assessment page UI.
+* Improved the Login page UI for mobile devices.
+* Prevented invoice updates when no procedures are added on the Assessment page.
+* Added `appName` and `loginImagePath` configuration options for the Login page.
+
 ## v1.2.12 - 2026-07-17
 ### Fixes
 * Fixed QR code printing for orders sent to the LIS.
