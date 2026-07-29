@@ -1,3 +1,12 @@
+## v1.2.14 - 2026-07-29
+
+### Fixes
+* Fixed invoice and barcode printing on the Order page.
+* Fixed duplicate invoice items when adding an order.
+
+### Features
+* Added the ability to create rates from the Rates page.
+
 ## v1.2.13 - 2026-07-21
 ### Fixes
 * Fixed the Activity Log for appointments.
