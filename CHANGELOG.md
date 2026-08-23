@@ -1,3 +1,43 @@
+## v1.2.15 - 2026-08-06
+
+### Fixes
+
+* Automatically assign the **Master** permission when creating a new report.
+* Prevent adding a payment from an appointment when the user does not have Invoice Payment permission during the conversion to In Progress.
+* Preserve the created_id in Invoice and Transaction records during updates.
+* Fixed duplicate order creation when an error occurs while communicating with S-Lab.
+* Added validation to prevent duplicate items from being added to the same order.
+* Display validation and error messages returned by S-Lab.
+* Improved handling of connection and timeout errors when communicating with S-Lab.
+* Automatically grant the Master role access to newly created reports.
+* Correctly display the patient's age in months when the patient is less than one year old in the Assessment.
+* Fixed Rate calculation when an order is canceled without a refund.
+* Display the patient's Diagnosis in the Case Sheet.
+* Display the patient's Health Information in the Case Sheet.
+* Added permissions for the Patient Sheet.
+* Applied filters after closing the Health Information Dynamic Fields edit dialog.
+* Applied filters after closing the Dynamic Fields edit dialog.
+* Automatically assign the Master permission when creating a new report.
+* Fix case-insensitive login to allow usernames regardless of capitalization.
+* Fix the issue with browser back navigation and restoring previous filters.
+* Fix the invoice date and time not being displayed correctly on mobile devices.
+* Fix missing activity logs in the mobile invoice view.
+* Fix the relationship between Appointment procedures and Assessment procedures.
+* Fix the issue where uploading a result file from the Order page in the Assessment section was unavailable.
+* Fix the Register icon layout and styling issue.
+* Fix inconsistencies between the portrait and landscape Assessment views.
+* Remove vital signs from all relevant sections of the system.
+
+### Features
+
+* Add a Payment Method filter to the Register Transactions and Transactions pages.
+* Add a dedicated permission for creating invoices from the Invoices page.
+* Display all users on the Send Messages page.
+* Allow creating transactions without assigning them to a register.
+* Add the ability to close registers.
+* Set the user's assigned register as the default register.
+* Add nullable `creator_id` to the `orders` table to track the order creator.
+
 ## v1.2.14 - 2026-07-29
 
 ### Fixes
