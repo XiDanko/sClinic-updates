@@ -1,4 +1,34 @@
-## v1.2.15 - 2026-08-06
+## v1.2.17 - 2026-09-13
+### Fixes
+* Update the Rates page ordering to follow clinics.order. Clinics with no rates should be hidden. Clinics with a remaining balance of zero should also be hidden by default, with a filter option to show them when needed.
+* Send the Order note to the SLab with the Order information.
+* Hide inactive Registers from the Registers page and add a filter for Active, Inactive, and All Registers.
+* Display rescheduled appointment times using the 24-hour format instead of AM/PM.
+* Solve the issue of creating multiple prescriptions for the same visit.
+
+### Features
+* Show the most-used procedures in the Orders page based on clickCount.
+* Add Arabic transcription to Procedures so users can search for procedures without switching the keyboard language.
+* Set the refund amount by default to the negative balance amount when creating a refund, simplifying the refund process.
+* Add a Creator filter to the Register Transactions page.
+
+
+## v1.2.16 - 2026-09-01
+
+### Fixes
+
+* Fixed an issue on the **Orders** page when the user is linked to a provider.
+* Fixed an issue where the **default register** was not displayed when attending an order.
+
+### Features
+
+* Added the ability to **record audio notes in the Assessment**.
+* Changed the **Clinic** filter on the **Orders** page to a searchable multi-select with persistent selection.
+* Added a **direct link to add procedures** from the **Assessment** page.
+* Added a dedicated card on the **Assessment** page to display the patient's **basic information and allergies** above the visits.
+* Updated the clinic selection UI  in appointment page.
+
+## v1.2.15 - 2026-08-23
 
 ### Fixes
 
