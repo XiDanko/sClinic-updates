@@ -1,3 +1,22 @@
+## v1.2.18 - 2026-09-25
+### Fixes
+* Apply the filter on the Registers page  after closing the dialog.
+* Translate the Amount to arabic.
+* Prepare the configuration when setting up the new system.
+* Delete the vital signs files.
+* Fix the assessment page in vertical view so the recording button is displayed.
+* Show the activity log on the Appointment page when the status is Completed.
+* Fix the Clinic Resource issue related to WhatsApp Settings.
+ 
+
+### Features
+* Add an Address option to the menu for editing the address.
+* Show a red hint, "Appointment has an old date", when the appointment date is in the past.
+* Make the Patient Information section on the Assessment page responsive on mobile.
+* Add the option to copy diagnosis templates on the Tools page.
+ 
+
+
 ## v1.2.17 - 2026-09-13
 ### Fixes
 * Update the Rates page ordering to follow clinics.order. Clinics with no rates should be hidden. Clinics with a remaining balance of zero should also be hidden by default, with a filter option to show them when needed.
