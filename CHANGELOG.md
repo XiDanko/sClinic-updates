@@ -1,3 +1,17 @@
+## v1.2.19 - 2026-10-23
+
+### Fixes
+* Store activity logs when receiving results from the lab.
+* Fix delays on the appointments page.
+* Fix delays on the assessments page.
+* Fix duplicate requests on the assessment page.
+* Display medical history in the assessment page information section after saving the medical history.
+
+### Features
+* Add the patient portal.
+* Add the ability to update extra charges on the invoice page.
+ 
+
 ## v1.2.18 - 2026-09-25
 ### Fixes
 * Apply the filter on the Registers page  after closing the dialog.

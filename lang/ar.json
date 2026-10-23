@@ -621,5 +621,15 @@
      "Notifications": "إشعارات",
      "To User": "الى المستخدم",
      "Filled": "مملوء",
+     "Patient Timeline Setting": "إعدادات  الجدول الزمني للمريض",
+     "LIS Settings": "إعدادات نظام معلومات المختبرات",
+     "General Settings": "الإعدادات العامة",
+     "ActivityLogs": "سجلات الأنشطة",
+     "All appointments loaded.": "تم تحميل جميع المواعيد.",
+     "No appointments found.": "لم يتم العثور على مواعيد.",
+     "Loading more appointments...": "جاري تحميل المزيد من المواعيد...",
+     "This appointment is recorded for the date of": "هذا الموعد مسجّل بتاريخ ",
+     "Would you like to proceed and have the patient see the doctor?": "هل تريد المتابعة وإدخال المريض إلى الطبيب؟",
+     "In Process Appointment": "موعد قيد الإجراء",
      "Welcome we wish you a speedy recovery": "مرحباً بكم، نتمنى لكم الشفاء العاجل."
 }

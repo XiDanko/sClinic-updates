@@ -16,15 +16,15 @@
         "laravel/sanctum": "^4.0",
         "laravel/telescope": "^5.20",
         "laravel/tinker": "^3.0",
-        "maatwebsite/excel": "^3.0",
+        "maatwebsite/excel": "^4.0",
         "spatie/laravel-activitylog": "^5.0",
         "spatie/laravel-permission": "^7.0",
-        "xidanko/auto-installer": "^1.0",
         "xidanko/jasper": "^1.0",
         "xidanko/query-filter": "^1.0",
         "xidanko/update-manager": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-ide-helper": "^3.7",
         "fakerphp/faker": "^1.0",
         "laravel/pint": "^1.0",
         "mockery/mockery": "^1.0",
@@ -46,13 +46,26 @@
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --force"
         ],
+        "app:install": [
+          "Composer\\Config::disableProcessTimeout",
+          "composer update --no-dev --optimize-autoloader --no-interaction",
+          "@php artisan optimize:clear",
+          "@php artisan opcache:clear",
+          "@php artisan db:create",
+          "@php artisan migrate:fresh --seed --force",
+          "@php artisan storage:link",
+          "@php artisan optimize"
+        ],
+        "app:refresh": [
+          "Composer\\Config::disableProcessTimeout",
+          "composer update --no-dev --optimize-autoloader --no-interaction",
+          "@php artisan optimize:clear",
+          "@php artisan opcache:clear",
+          "@php artisan permission:sync",
+          "@php artisan optimize"
+        ],
         "post-files-update-cmd": [
-            "composer update --no-dev --optimize-autoloader --no-interaction",
-            "@php artisan optimize:clear",
-            "@php artisan opcache:clear",
-            "@php artisan permission:sync",
-            "@php artisan optimize",
-            "@php artisan opcache:compile"
+          "@composer run app:refresh"
         ]
     },
     "extra": {

@@ -1,4 +1,4 @@
 @ECHO OFF
-cd ../
-call composer run post-files-update-cmd
+cd ..
+call composer app:refresh
 pause
