@@ -5,7 +5,7 @@
 @section('content')
 
     <section
-        class="min-h-screen bg-gradient-to-b from-blue-50 via-slate-50 to-white"
+        class="min-h-screen bg-gradient-to-b from-blue-50 via-slate-50 to-white mb-10"
         dir="rtl"
     >
 

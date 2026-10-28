@@ -1,3 +1,10 @@
+## v1.2.20 - 2026-10-27
+
+### Fixes
+* Fix search issues on the appointments page.
+* Fix search issues on the assessment page.
+* Fix printing delays.
+
 ## v1.2.19 - 2026-10-23
 
 ### Fixes

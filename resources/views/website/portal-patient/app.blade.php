@@ -43,7 +43,7 @@
 
 
 
-<main>
+<main class="pb-8">
     @if(isset($patient))
         <div class="pt-1">
             @include('website.portal-patient.visitations.patient-info', [
